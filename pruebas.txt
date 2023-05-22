@@ -1,0 +1,17 @@
+ent y1$
+ent y1: valor$
+dec w$
+dec w:12343t$
+txt s$
+con verificar$
+pr [ent x: 0; x<9; x++]{}$
+pr [ent x: 0; x<9; x--]{
+ent y1$
+}$
+ent main []{dev valor}$
+nd vea []{}$
+vea[]$
+mt [x=y & y=x]{}$
+sikas[x=y]{}$
+sikas[x<x]{ }nokas{}$
+it{ }at{ }$
